@@ -1,0 +1,23 @@
+{
+  "name": "alex/test_task",
+  "description": "Test project",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "ElementGenerator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alex N",
+      "email": "test@test.test"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "symfony/console": "^4.4",
+    "symfony/phpunit-bridge": "^4.4",
+    "phpunit/phpunit": "^7.5"
+  }
+}
